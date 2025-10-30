@@ -5,7 +5,8 @@
             "engine":"Diesel",
             "horsePower":150,
             "gearbox":"Automatic",
-            "price":3550 
+            "price":3550,
+            "image":"https://img.autoabc.lv/Alfa-Romeo-159/Alfa-Romeo-159_2008_Sedans_151211113413_0.jpg"
             
         },
         "Giulietta": {
@@ -1229,7 +1230,8 @@
                 "engine":"Petrol",
                 "horsePower":107,
                 "gearbox":"Manual",
-                "price":2530
+                "price":2530,
+                "image": "https://www.automoli.com/common/vehicles/_assets/img/gallery/f62/suzuki-sx4-i-facelift-2010.jpg"
             },
             "Swift":{
                 "year":2007,
