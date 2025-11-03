@@ -1298,114 +1298,128 @@
                 "engine":"Petrol",
                 "horsePower":102,
                 "gearbox":"Manual",
-                "price":3010
+                "price":3010,
+                "image":"https://g1-bg.cars.bg/2025-03-21_1/67dd0707985c9935aa040ce9o.jpg"
             },
             "Ibiza":{
                 "year":2010,
                 "engine":"Petrol",
-                "horsePower":85,
+                "horsePower":105,
                 "gearbox":"Manual",
-                "price":3360
+                "price":3830,
+                "image":"https://g1-bg.cars.bg/2024-06-21_2/6675cd8f58ed560de0064713o.jpg"
             },
             "Leon":{
                 "year":2009,
                 "engine":"Petrol",
-                "horsePower":86,
+                "horsePower":102,
                 "gearbox":"Manual",
-                "price":2550
+                "price":3570,
+                "image":"https://g1-bg.cars.bg/2025-11-02_2/690734981482359aa80f6a72o.jpg"
             }
         },
         "Skoda":{
             "Fabia":{
-                "year":2012,
+                "year":2013,
                 "engine":"Petrol",
-                "horsePower":60,
+                "horsePower":105,
                 "gearbox":"Manual",
-                "price":2300
+                "price":7150,
+                "image":"https://g1-bg.cars.bg/2025-09-04_2/68b9d8b0f526cdd0df0b5862o.jpg"
             },
             "Octavia":{
                 "year":2009,
                 "engine":"Diesel",
                 "horsePower":105,
                 "gearbox":"Manual",
-                "price":4750
+                "price":4850,
+                "image":"https://g1-bg.cars.bg/2025-10-01_2/68dd8247c69f467b0e01c303o.jpg"
             },
             "Superb":{
                 "year":2016,
                 "engine":"Diesel",
                 "horsePower":190,
                 "gearbox":"Automatic",
-                "price":12730
+                "price":12730,
+                "image":"https://g1-bg.cars.bg/2025-10-25_2/68fce212eb8a6dc06904eb05o.jpg"
             }
         },
         "Subaru":{
             "Forester":{
-                "year":2010,
+                "year":2011,
                 "engine":"Petrol",
-                "horsePower":150,
+                "horsePower":170,
                 "gearbox":"Automatic",
-                "price":6230
+                "price":6280,
+                "image":"https://g1-bg.cars.bg/2025-07-19_2/687bcbee2712ad9fd70e5522o.jpg"
             },
             "Impreza":{
                 "year":2009,
                 "engine":"Gas",
                 "horsePower":107,
                 "gearbox":"Manual",
-                "price":3170
+                "price":3370,
+                "image":"https://g1-bg.cars.bg/2024-11-20_2/673e3f0b9b25bcff7d0d1852o.jpg"
             },
             "Outback":{
                 "year":2008,
                 "engine":"Petrol",
                 "horsePower":165,
                 "gearbox":"Automatic",
-                "price":3400
+                "price":4500,
+                "image":"https://g1-bg.cars.bg/2025-10-15_2/68efe4a37b0781f7100c7db2o.jpg"
             },
             "Legacy":{
                 "year":2005,
                 "engine":"Petrol",
-                "horsePower":165,
+                "horsePower":136,
                 "gearbox":"Manual",
-                "price":1780
+                "price":2040,
+                "image":"https://g1-bg.cars.bg/2025-08-20_2/68a619449177c344d90a9522o.jpg"
             }
         },
         "Suzuki":{
             "Grand Vitara":{
                 "year":2009,
                 "engine":"Petrol",
-                "horsePower":140,
+                "horsePower":169,
                 "gearbox":"Automatic",
-                "price":6480
+                "price":7660,
+                "image":"https://g1-bg.cars.bg/2025-04-03_2/67eeacef4a688ea2770201a2o.jpg"
             },
             "SX4":{
                 "year":2009,
                 "engine":"Petrol",
                 "horsePower":107,
                 "gearbox":"Manual",
-                "price":2530,
-                "image": "https://www.automoli.com/common/vehicles/_assets/img/gallery/f62/suzuki-sx4-i-facelift-2010.jpg"
+                "price":2850,
+                "image": "https://g1-bg.cars.bg/2025-08-31_1/68b40c7e7f0f9ae596072752o.jpg"
             },
             "Swift":{
                 "year":2007,
                 "engine":"Petrol",
                 "horsePower":91,
                 "gearbox":"Manual",
-                "price":2450
+                "price":2450,
+                "image":"https://g1-bg.cars.bg/2024-04-02_1/660b8de6dae45b09bf0aec92o.jpg"
             }
         },
         "Tesla":{
-            "Model3":{
+            "Model 3":{
                 "year":2020,
                 "engine":"Electric",
                 "horsePower":480,
                 "gearbox":"Automatic",
-                "price":20190
+                "price":20190,
+                "image":"https://g1-bg.cars.bg/2025-08-31_2/68b4952a460948176d09a782o.jpg"
             },
-            "ModelY":{
+            "Model Y":{
                 "year":2021,
                 "engine":"Electric",
-                "horsePower":480,
+                "horsePower":514,
                 "gearbox":"Automatic",
-                "price":27260
+                "price":32210,
+                "image":"https://g1-bg.cars.bg/2025-09-05_2/68badc7c23bd328eb60f3d62o.jpg"
             }
         },
         "Toyota":{
@@ -1414,49 +1428,56 @@
                 "engine":"Petrol",
                 "horsePower":132,
                 "gearbox":"Manual",
-                "price":5110
+                "price":5420,
+                "image":"https://g1-bg.cars.bg/2025-07-11_1/6870b336f72befab930a0202o.jpg"
             },
             "Avensis":{
                 "year":2010,
                 "engine":"Diesel",
                 "horsePower":177,
                 "gearbox":"Manual",
-                "price":4190
+                "price":4190,
+                "image":"https://g1-bg.cars.bg/2025-07-22_2/687fd9d436a00ce3a60a3b73o.jpg"
             },
             "C-HR":{
                 "year":2017,
                 "engine":"Hybrid",
                 "horsePower":136,
                 "gearbox":"Automatic",
-                "price":15080
+                "price":15080,
+                "image":"https://g1-bg.cars.bg/2025-08-16_2/68a07e3fa941ed17650d9b62o.jpg"
             },
             "Corolla":{
-                "year":2021,
+                "year":2020,
                 "engine":"Petrol",
-                "horsePower":122,
+                "horsePower":132,
                 "gearbox":"Manual",
-                "price":13540
+                "price":16860,
+                "image":"https://g1-bg.cars.bg/2025-11-01_2/690605286ca0dd55a40427a6o.jpg"
             },
             "LandCruiser":{
                 "year":2004,
                 "engine":"Diesel",
                 "horsePower":163,
                 "gearbox":"Manual",
-                "price":10220
+                "price":10220,
+                "image":"https://bidders-highway.fra1.cdn.digitaloceanspaces.com/3ce3ff7b3785e094085d70af78c65cdc"
             },
             "Rav4":{
                 "year":2001,
                 "engine":"Petrol",
                 "horsePower":150,
                 "gearbox":"Manual",
-                "price":2960
+                "price":2960,
+                "image":"https://g1-bg.cars.bg/2023-07-14_1/64b1069735eddd69c60fc1b4o.jpg   "
             },
             "Yaris":{
                 "year":2009,
                 "engine":"Diesel",
                 "horsePower":90,
                 "gearbox":"Manual",
-                "price":3520
+                "price":3570,
+                "image":"https://g1-bg.cars.bg/2025-06-03_1/683eb800ab814a5ee8011124o.jpg"
             }
         },
         "VW":{
@@ -1465,79 +1486,90 @@
                 "engine":"Diesel",
                 "horsePower":105,
                 "gearbox":"Manual",
-                "price":4700
+                "price":4600,
+                "image":"https://g1-bg.cars.bg/2025-04-18_2/68023cffe7d10f1ed108a412o.jpg"
             },
             "Golf":{
                 "year":2005,
                 "engine":"Diesel",
                 "horsePower":105,
                 "gearbox":"Manual",
-                "price":2990
+                "price":2810,
+                "image":"https://g1-bg.cars.bg/2025-10-23_2/68fa6e8ba172db07d2019d22o.jpg"
             },
             "Passat":{
                 "year":2006,
                 "engine":"Diesel",
                 "horsePower":105,
                 "gearbox":"Manual",
-                "price":3060
+                "price":3060,
+                "image":"https://g1-bg.cars.bg/2025-09-22_1/68d0f8ea1a2ee8e2900d6fe4o.jpg"
             },
             "Polo":{
-                "year":2004,
+                "year":2005,
                 "engine":"Petrol",
-                "horsePower":75,
+                "horsePower":101,
                 "gearbox":"Manual",
-                "price":1940
+                "price":1630,
+                "image":"https://g1-bg.cars.bg/2024-10-07_2/67040c842d8e0900a8098882o.jpg"
             },
             "Tiguan":{
                 "year":2008,
                 "engine":"Diesel",
                 "horsePower":140,
                 "gearbox":"Manual",
-                "price":5980
+                "price":5870,
+                "image":"https://g1-bg.cars.bg/2025-10-13_2/68ecf50908b928dbf6031ae5o.jpg"    
             },
             "Touareg":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":245,
                 "gearbox":"Automatic",
-                "price":12780
+                "price":12780,
+                "image":"https://g1-bg.cars.bg/2025-08-07_2/6894d78349d2c4aa8d04b032o.jpg"
             },
             "Touran":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":105,
                 "gearbox":"Manual",
-                "price":6440
+                "price":6440,
+                "image":"https://g1-bg.cars.bg/2025-09-04_1/68b939d971d6eff9d40b4042o.jpg"
             }
         },
         "Volvo":{
             "V40":{
-                "year":2013,
+                "year":2014,
                 "engine":"Diesel",
-                "horsePower":150,
+                "horsePower":115,
                 "gearbox":"Manual",
-                "price":6770
+                "price":6590,
+                "image":"https://g1-bg.cars.bg/2024-02-03_2/65be1da7266cc8306005e5c2o.jpg"
             },
             "V50":{
                 "year":2009,
                 "engine":"Diesel",
-                "horsePower":136,
+                "horsePower":180,
                 "gearbox":"Manual",
-                "price":2270
+                "price":2470,
+                "image":"https://g1-bg.cars.bg/2025-09-19_2/68cd401c7393b4833709cdd2o.jpg"
             },
             "XC60":{
                 "year":2018,
                 "engine":"Diesel",
                 "horsePower":240,
                 "gearbox":"Automatic",
-                "price":21930
+                "price":21930,
+                "image":"https://g1-bg.cars.bg/2025-10-06_2/68e391f64338254a59069432o.jpg"
             },
             "XC90":{
                 "year":2005,
                 "engine":"Diesel",
                 "horsePower":163,
                 "gearbox":"Manual",
-                "price":4080
+                "price":4080,
+                "image":"https://g1-bg.cars.bg/2025-08-29_2/68b181bba874b879aa08bba2o.jpg"
             }
         }
 }
