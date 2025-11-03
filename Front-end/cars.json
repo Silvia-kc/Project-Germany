@@ -482,14 +482,16 @@
                 "engine":"Petrol",
                 "horsePower":725,
                 "gearbox":"Automatic",
-                "price":529900
+                "price":529900,
+                "image":"https://www.europeanprestige.co.uk/blobs/stock/639/images/75170c78-54d5-457d-8a95-5193a77852e4/ext-6.jpg?width=2000&height=1333"
             },
             "SF90":{
                 "year":2022,
                 "engine":"Petrol",
                 "horsePower":999,
                 "gearbox":"Automatic",
-                "price":309900
+                "price":309900,
+                "image":"https://www.lamborghinigoldcoast.com/imagetag/9984/2/l/Used-2022-Ferrari-SF90-Stradale-1652733754.jpg"
             }
         },
         "Fiat":{
@@ -498,21 +500,24 @@
                 "engine":"Petrol",
                 "horsePower":70,
                 "gearbox":"Automatic",
-                "price":5570
+                "price":5570,
+                "image":"https://img.classistatic.de/api/v1/mo-prod/images/2a/2a5644b6-affa-499f-a955-83c509bfea45?rule=mo-1600"
             },
             "Doblo":{
                 "year":2016,
                 "engine":"Diesel",
                 "horsePower":90,
                 "gearbox":"Manual",
-                "price":3370
+                "price":3370,
+                "image":"https://g1-bg.cars.bg/2025-05-12_2/6821ed5de4b800a37a0133e2o.jpg"
             },
             "Punto":{
                 "year":2008,
                 "engine":"Petrol",
                 "horsePower":60,
                 "gearbox":"Manual",
-                "price":1280
+                "price":1280,
+                "image":"https://g1-bg.cars.bg/2025-10-17_1/68f1fdce0f0736d167074892o.jpg"
             }
         },
         "Ford":{
@@ -521,28 +526,32 @@
                 "engine":"Diesel",
                 "horsePower":163,
                 "gearbox":"Automatic",
-                "price":6080
+                "price":6080,
+                "image":"https://g1-bg.cars.bg/2025-10-22_2/68f8d42566b45a9dfb066182o.jpg"
             },
             "Fiesta":{
                 "year":2011,
                 "engine":"Petrol",
                 "horsePower":120,
                 "gearbox":"Manual",
-                "price":4600
+                "price":4600,
+                "image":"https://g1-bg.cars.bg/2025-03-24_2/67e134f0955b6aa10e0832f2o.jpg"
             },
             "Focus":{
                 "year":2008,
                 "engine":"Diesel",
                 "horsePower":109,
                 "gearbox":"Manual",
-                "price":2760
+                "price":2760,
+                "image":"https://g1-bg.cars.bg/2025-11-01_2/6905fdb5ffcbffb398053c42o.jpg"
             },
             "Mondeo":{
                 "year":2011,
                 "engine":"Diesel",
                 "horsePower":140,
                 "gearbox":"Manual",
-                "price":4755
+                "price":4755,
+                "image":"https://g1-bg.cars.bg/2025-10-23_2/68fa52f55dbe90aa390dda43o.jpg"
             }
         },
         "Honda":{
@@ -551,28 +560,32 @@
                 "engine":"Petrol",
                 "horsePower":156,
                 "gearbox":"Manual",
-                "price":5520
+                "price":5520,
+                "image":"https://g1-bg.cars.bg/2025-09-14_2/68c6ef284fec8ec69b0b5f92o.jpg"
             },
             "Civic":{
                 "year":2009,
                 "engine":"Petrol",
                 "horsePower":140,
                 "gearbox":"Manual",
-                "price":5250
+                "price":5250,
+                "image":"https://g1-bg.cars.bg/2025-06-20_2/685536d2aee30dc64806fc43o.jpg"
             },
             "Cr-V":{
                 "year":2012,
                 "engine":"Diesel",
                 "horsePower":150,
                 "gearbox":"Manual",
-                "price":6130
+                "price":6130,
+                "image":"https://g1-bg.cars.bg/2025-10-25_2/68fce8ee98389c46d30d0045o.jpg"
             },
             "Jazz":{
                 "year":2015,
                 "engine":"Petrol",
                 "horsePower":132,
                 "gearbox":"Automatic",
-                "price":9700
+                "price":9700,
+                "image":"https://g1-bg.cars.bg/2025-11-01_1/6905c9879b4d75399e092b62o.jpg"
             }
         },
         "Hyundai":{
@@ -581,28 +594,32 @@
                 "engine":"Petrol",
                 "horsePower":100,
                 "gearbox":"Manual",
-                "price":6130
+                "price":6130,
+                "image":"https://g1-bg.cars.bg/2024-09-05_2/66d9eb3707293238e204f312o.jpg"
             },
             "Kona":{
                 "year":2021,
                 "engine":"Hybrid",
                 "horsePower":105,
                 "gearbox":"Automatic",
-                "price":16000
+                "price":16000,
+                "image":"https://g1-bg.cars.bg/2025-10-26_2/68fe08ceade41ba8220ea692o.jpg"
             },
-            "SantaFe":{
+            "Santa Fe":{
                 "year":2012,
                 "engine":"Diesel",
                 "horsePower":197,
                 "gearbox":"Automatic",
-                "price":7920
+                "price":7920,
+                "image":"https://g1-bg.cars.bg/2025-10-30_2/690374b8abf2fdad400fcc22o.jpg"
             },
             "Tucson":{
                 "year":2005,
                 "engine":"Diesel",
                 "horsePower":114,
                 "gearbox":"Automatic",
-                "price":4080
+                "price":4080,
+                "image":"https://g1-bg.cars.bg/2024-11-25_1/674421cc22621aa58e0515c3o.jpg"
             }
         },
         "Infiniti":{
@@ -611,14 +628,16 @@
                 "engine":"Diesel",
                 "horsePower":238,
                 "gearbox":"Automatic",
-                "price":12730
+                "price":12730,
+                "image":"https://g1-bg.cars.bg/2025-02-27_2/67c0d6e0780fbf009b07f6f4o.jpg   "
             },
             "Q50":{
                 "year":2015,
                 "engine":"Diesel",
                 "horsePower":170,
                 "gearbox":"Automatic",
-                "price":8180
+                "price":8180,
+                "image":"https://g1-bg.cars.bg/2025-09-25_2/68d5276289fd62fc32013b52o.jpg"
             }
         },
         "Jaguar":{
@@ -627,14 +646,16 @@
                 "engine":"Diesel",
                 "horsePower":300,
                 "gearbox":"Automatic",
-                "price":25510
+                "price":25510,
+                "image":"https://g1-bg.cars.bg/2025-11-01_2/690660c2b445831c400e61a3o.jpg"
             },
             "Xf":{
                 "year":2016,
                 "engine":"Diesel",
                 "horsePower":179,
                 "gearbox":"Automatic",
-                "price":12620
+                "price":12620,
+                "image":"https://g1-bg.cars.bg/2025-10-08_2/68e63d8d2b74bb14a2082135o.jpg"
             }
         },
         "Jeep":{
@@ -643,21 +664,24 @@
                 "engine":"Diesel",
                 "horsePower":138,
                 "gearbox":"Automatic",
-                "price":12730
+                "price":12730,
+                "image":"https://g1-bg.cars.bg/2025-07-22_1/687f428f1efa460f0e0eb644o.jpg"
             },
-            "GrandCherokee":{
+            "Grand Cherokee":{
                 "year":2014,
                 "engine":"Diesel",
                 "horsePower":250,
                 "gearbox":"Automatic",
-                "price":13290
+                "price":13290,
+                "image":"https://g1-bg.cars.bg/2025-10-19_2/68f5456dae0faeada304b6b2o.jpg"
             },
             "Wrangler":{
                 "year":2021,
                 "engine":"Petrol",
                 "horsePower":285,
                 "gearbox":"Automatic",
-                "price":29550
+                "price":29550,
+                "image":"https://g1-bg.cars.bg/2025-07-03_2/6866acbeacde4efa5b08c7b6o.jpg"
             }
         },
         "Kia":{
@@ -666,21 +690,24 @@
                 "engine":"Diesel",
                 "horsePower":116,
                 "gearbox":"Automatic",
-                "price":10680
+                "price":10680,
+                "image":"https://g1-bg.cars.bg/2024-06-13_1/666a9fbcace16ac5c3047912o.jpg"
             },
             "K5":{
                 "year":2021,
                 "engine":"Gas",
                 "horsePower":150,
                 "gearbox":"Automatic",
-                "price":18660
+                "price":18660,
+                "image":"https://g1-bg.cars.bg/2025-09-09_2/68c05d43f6ddafc7b300aa7bo.jpg"
             },
             "Sportage":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":116,
                 "gearbox":"Manual",
-                "price":7610
+                "price":7610,
+                "image":"https://g1-bg.cars.bg/2025-06-04_2/68406f20d00a54ad5e050447o.jpg"
             }
         },
         "Lamborghini":{
@@ -689,37 +716,42 @@
                 "engine":"Petrol",
                 "horsePower":639,
                 "gearbox":"Automatic",
-                "price":230000
+                "price":230000,
+                "image":"https://www.bentleylongisland.com/imagetag/2477/2/l/New-2020-Lamborghini-Huracan-Evo-Spyder-1564759232.jpg"
             },
             "Urus":{
                 "year":2019,
                 "engine":"Petrol",
                 "horsePower":650,
                 "gearbox":"Automatic",
-                "price":228000
+                "price":228000,
+                "image":"https://g1-bg.cars.bg/2024-06-02_2/665c90506d6b9a6c000377d2o.jpg"
             }
         },
-        "LandRover":{
+        "Land Rover":{
             "Discovery":{
                 "year":2022,
                 "engine":"Diesel",
                 "horsePower":300,
                 "gearbox":"Automatic",
-                "price":45800
+                "price":45800,
+                "image":"https://www.lloydmotorgroup.com/VehicleLibrary/903060-o4Pp81TNUagcTy42PmKg.jpg?height=648.75&heightratio=0.75&mode=crop&upscale=true&width=865"
             },
-            "RangeRoverEvoque":{
+            "Range Rover Evoque":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":150,
                 "gearbox":"Manual",
-                "price":12780
+                "price":12780,
+                "image":"https://g1-bg.cars.bg/2024-05-15_2/66448e546c0ffc957009ec55o.jpg   "
             },
-            "RangeRoverSport":{
+            "Range Rover Sport":{
                 "year":2017,
                 "engine":"Diesel",
                 "horsePower":340,
                 "gearbox":"Automatic",
-                "price":11760
+                "price":19680,
+                "image":"https://g1-bg.cars.bg/2025-08-03_2/688f8ffcacdedd1f970cab58o.jpg"
             }
         },
         "Lexus":{
@@ -728,14 +760,16 @@
                 "engine":"Hybrid",
                 "horsePower":155,
                 "gearbox":"Automatic",
-                "price":35220
+                "price":35220,
+                "image":"https://g1-bg.cars.bg/2025-10-28_2/69011ab018e2ba2c5701d562o.jpg"
             },
             "RX450h":{
                 "year":2018,
                 "engine":"Hybrid",
                 "horsePower":262,
                 "gearbox":"Automatic",
-                "price":36290
+                "price":36290,
+                "image":"https://g1-bg.cars.bg/2025-10-14_2/68ee249366a886aa04097f43o.jpg"
             }
         },
         "Maserati":{
@@ -744,14 +778,16 @@
                 "engine":"Diesel",
                 "horsePower":275,
                 "gearbox":"Automatic",
-                "price":25510
+                "price":25510,
+                "image":"https://g1-bg.cars.bg/2024-11-12_2/673381d34da4c7f0070be525o.jpg"
             },
             "Levante":{
                 "year":2017,
                 "engine":"Diesel",
                 "horsePower":258,
                 "gearbox":"Automatic",
-                "price":25540
+                "price":25540,
+                "image":"https://g1-bg.cars.bg/2025-03-01_2/67c2e108c8da90a1d20a2ed2o.jpg"
             }
         },
         "Mazda":{
@@ -760,37 +796,42 @@
                 "engine":"Diesel",
                 "horsePower":150,
                 "gearbox":"Manual",
-                "price":7800
+                "price":7800,
+                "image":"https://g1-bg.cars.bg/2025-02-01_2/679e4767db3142f99a08f853o.jpg"
             },
             "6":{
                 "year":2015,
                 "engine":"Diesel",
                 "horsePower":175,
                 "gearbox":"Automatic",
-                "price":10680
+                "price":10680,
+                "image":"https://g1-bg.cars.bg/2025-09-25_2/68d533d09c3da621fb0dc344o.jpg"
             },
             "CX-5":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":150,
                 "gearbox":"Automatic",
-                "price":7410
+                "price":7410,
+                "image":"https://g1-bg.cars.bg/2025-09-28_1/68d8cff699b34ebb9b0af793o.jpg   "
             }
         },
         "McLaren":{
-            "57SCoupe":{
+            "570S":{
                 "year":2017,
                 "engine":"Petrol",
                 "horsePower":570,
                 "gearbox":"Automatic",
-                "price":127310
+                "price":127310,
+                "image":"https://www.exoticshunter.com/imagetag/377/main/l/Used-2017-McLaren-570S-Wrapped-Matte-Black-Novitec-1016-Carbon-Larini-Exhaust-Front-Lift-1680805937.jpg"
             },
             "720S":{
                 "year":2019,
                 "engine":"Petrol",
                 "horsePower":720,
                 "gearbox":"Automatic",
-                "price":204510
+                "price":204510,
+                "image":"https://www.marshallgoldman.com/imagetag/4007/2/l/Used-2019-McLaren-720S-Performance-1728922495.jpg"
             }
         },
         "Mercedes-Benz":{
@@ -799,154 +840,176 @@
                 "engine":"Petrol",
                 "horsePower":196,
                 "gearbox":"Automatic",
-                "price":9660
+                "price":9660,
+                "image":"https://g1-bg.cars.bg/2025-04-14_1/67fc8aa5b2b1b23a80080572o.jpg"
             },
             "A180":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":109,
                 "gearbox":"Manual",
-                "price":10220
+                "price":10220,
+                "image":"https://g1-bg.cars.bg/2025-04-14_1/67fc8aa5b2b1b23a80080572o.jpg"
             },
-            "AMGGT":{
+            "AMG GT":{
                 "year":2020,
                 "engine":"Petrol",
                 "horsePower":367,
                 "gearbox":"Automatic",
-                "price":66460
+                "price":66460,
+                "image":"https://g1-bg.cars.bg/2024-08-29_1/66d01496ca7b207256007352o.jpg"
             },
-            "B180":{
+            "B 180":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":109,
                 "gearbox":"Automatic",
-                "price":7150
+                "price":7150,
+                "image":"https://g1-bg.cars.bg/2025-09-25_2/68d559c3ce377e77d2060522o.jpg"
             },
-            "C220":{
+            "C 220":{
                 "year":2010,
                 "engine":"Diesel",
                 "horsePower":170,
                 "gearbox":"Automatic",
-                "price":6800
+                "price":6800,
+                "image":"https://g1-bg.cars.bg/2024-04-02_2/660bfd9a84c3eba4aa088b93o.jpg"
             },
-            "C300":{
+            "C 300":{
                 "year":2013,
                 "engine":"Petrol",
                 "horsePower":306,
                 "gearbox":"Automatic",
-                "price":11240
+                "price":11240,
+                "image":"https://g1-bg.cars.bg/2025-08-01_2/688cb241f036692c980efb32o.jpg"
             },
-            "CL500":{
+            "CL 500":{
                 "year":2015,
                 "engine":"Petrol",
                 "horsePower":435,
                 "gearbox":"Automatic",
-                "price":19430
+                "price":19430,
+                "image":"https://g1-bg.cars.bg/2025-10-23_2/68fa5865ee37b6867f018732o.jpg"
             },
-            "CLA250":{
+            "CLA 250":{
                 "year":2022,
                 "engine":"Hybrid",
                 "horsePower":218,
                 "gearbox":"Automatic",
-                "price":30620
+                "price":30620,
+                "image":"https://img.classistatic.de/api/v1/mo-prod/images/88/88f44d67-23d2-4f31-a5a3-80a1949917f5?rule=mo-1600"
             },
-            "CLS350":{
+            "CLS 350":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":265,
                 "gearbox":"Automatic",
-                "price":12930
+                "price":12930,
+                "image":"https://g1-bg.cars.bg/2025-08-27_1/68aead8878e4596a28057772o.jpg"
             },
-            "CLS500":{
+            "CLS 500":{
                 "year":2012,
                 "engine":"Petrol",
                 "horsePower":408,
                 "gearbox":"Automatic",
-                "price":1533
+                "price":15330,
+                "image":"https://g1-bg.cars.bg/2025-10-25_1/68fc67c2e3da60df6a0edbd4o.jpg"
             },
-            "CLS63AMG":{
+            "CLS 63 AMG":{
                 "year":2012,
                 "engine":"Petrol",
                 "horsePower":525,
                 "gearbox":"Automatic",
-                "price":35780
+                "price":35780,
+                "image":"https://g1-bg.cars.bg/2025-09-22_2/68d14a64ec4e844e730fb8c2o.jpg"
             },
-            "E220":{
+            "E 220":{
                 "year":2008,
                 "engine":"Diesel",
                 "horsePower":170,
                 "gearbox":"Automatic",
-                "price":6900
+                "price":6900,
+                "image":"https://g1-bg.cars.bg/2025-10-31_2/69050228b154583f4b04ba82o.jpg"
             },
-            "E350":{
+            "E 350":{
                 "year":2016,
                 "engine":"Diesel",
                 "horsePower":258,
                 "gearbox":"Automatic",
-                "price":24530
+                "price":24530,
+                "image":"https://g1-bg.cars.bg/2025-02-01_2/679e3e2fc34771f5430f0392o.jpg"
             },
-            "G500":{
+            "G 500":{
                 "year":2013,
                 "engine":"Petrol",
                 "horsePower":387,
                 "gearbox":"Automatic",
-                "price":66410
+                "price":66410,
+                "image":"https://g1-bg.cars.bg/2021-08-04_2/610a6b4bb70e4256001416c4o.jpg"
             },
-            "G63AMG":{
+            "G 63 AMG":{
                 "year":2014,
                 "engine":"Petrol",
                 "horsePower":571,
                 "gearbox":"Automatic",
-                "price":72850
+                "price":72850,
+                "image":"https://g1-bg.cars.bg/2025-10-28_2/6900c78d10bb244181088ce2o.jpg"
             },
-            "GL350":{
+            "GL 350":{
                 "year":2015,
                 "engine":"Diesel",
                 "horsePower":258,
                 "gearbox":"Automatic",
-                "price":19680
+                "price":19680,
+                "image":"https://g1-bg.cars.bg/2025-10-27_2/68ffa80136fa7cf8630db9f3o.jpg"
             },
-            "GLC300":{
+            "GLC 300":{
                 "year":2021,
                 "engine":"Diesel",
                 "horsePower":245,
                 "gearbox":"Automatic",
-                "price":29140
+                "price":29140,
+                "image":"https://g1-bg.cars.bg/2025-07-23_1/68807dd22652f5fd640c2f42o.jpg"
             },
             "GLK":{
                 "year":2012,
                 "engine":"Diesel",
-                "horsePower":170,
+                "horsePower":265,
                 "gearbox":"Automatic",
-                "price":8230
+                "price":14210,
+                "image":"https://g1-bg.cars.bg/2025-09-19_2/68cda8e0110a217f0c0e0b02o.jpg"
             },
-            "ML350":{
+            "ML 350":{
                 "year":2010,
                 "engine":"Diesel",
                 "horsePower":224,
                 "gearbox":"Automatic",
-                "price":8940
+                "price":8940,
+                "image":"https://g1-bg.cars.bg/2025-10-24_1/68fafd04b15dd6b194006cf2o.jpg"
             },
-            "S350":{
-                "year":2014,
+            "S 350":{
+                "year":2015,
                 "engine":"Diesel",
                 "horsePower":258,
                 "gearbox":"Automatic",
-                "price":11240
+                "price":21720,
+                "image":"https://g1-bg.cars.bg/2025-10-29_1/690151bcb22f6a474d0db1d2o.jpg"
             },
-            "S500":{
+            "S 500":{
                 "year":2012,
                 "engine":"Petrol",
                 "horsePower":435,
                 "gearbox":"Automatic",
-                "price":11240
+                "price":13290,
+                "image":"https://g1-bg.cars.bg/2025-03-31_2/67eaa5f7d52068bbc00672f3o.jpg"
             },
-            "S63AMG":{
+            "S 63 AMG":{
                 "year":2014,
                 "engine":"Petrol",
                 "horsePower":585,
                 "gearbox":"Automatic",
-                "price":40850
+                "price":68460,
+                "image":"https://g1-bg.cars.bg/2024-11-21_2/673f96742ccd6ecbbf073ea4o.jpg"
             }
         },
         "Mini":{
@@ -955,14 +1018,16 @@
                 "engine":"Petrol",
                 "horsePower":116,
                 "gearbox":"Manual",
-                "price":1890
+                "price":1890,
+                "image":"https://g1-bg.cars.bg/2025-06-12_2/684a9f1366b3386fd4008425o.jpg"
             },
             "Countryman":{
-                "year":2011,
+                "year":2012,
                 "engine":"Diesel",
-                "horsePower":116,
+                "horsePower":134,
                 "gearbox":"Manual",
-                "price":7610
+                "price":7660,
+                "image":"https://g1-bg.cars.bg/2025-02-17_1/67b302d6314a6cd4f10852d2o.jpg"
             }
         },
         "Mitsubishi":{
@@ -971,35 +1036,40 @@
                 "engine":"Petrol",
                 "horsePower":95,
                 "gearbox":"Manual",
-                "price":1250
+                "price":1250,
+                "image":"https://g1-bg.cars.bg/2025-07-30_1/6889b43c79c03681860b8295o.jpg"
             },
             "L200":{
                 "year":2017,
                 "engine":"Diesel",
                 "horsePower":155,
                 "gearbox":"Manual",
-                "price":19170
+                "price":19170,
+                "image":"https://g1-bg.cars.bg/2025-10-09_2/68e7f92da562f83ec00908a2o.jpg"
             },
             "Lancer":{
                 "year":2013,
                 "engine":"Petrol",
                 "horsePower":117,
                 "gearbox":"Manual",
-                "price":3420
+                "price":3420,
+                "image":"https://g1-bg.cars.bg/2025-09-10_2/68c161faf4eecee532093883o.jpg"
             },
             "Outlander":{
                 "year":2005,
                 "engine":"Petrol",
                 "horsePower":160,
                 "gearbox":"Manual",
-                "price":4990
+                "price":4990,
+                "image":"https://g1-bg.cars.bg/2025-05-02_2/6814e95e5234f66ff108fb54o.jpg"
             },
             "Pajero":{
                 "year":2008,
                 "engine":"Diesel",
-                "horsePower":160,
+                "horsePower":165,
                 "gearbox":"Manual",
-                "price":9150
+                "price":9150,
+                "image":"https://g1-bg.cars.bg/2025-07-01_2/6863ec6d3cbc1eae45078452o.jpg"
             }
         },
         "Nissan":{
@@ -1008,28 +1078,32 @@
                 "engine":"Diesel",
                 "horsePower":110,
                 "gearbox":"Manual",
-                "price":6130
+                "price":6130,
+                "image":"https://g1-bg.cars.bg/2025-11-02_2/6907761c8f3b85e3800b7273o.jpg"
             },
             "Micra":{
                 "year":2015,
                 "engine":"Petrol",
-                "horsePower":98,
+                "horsePower":80,
                 "gearbox":"Manual",
-                "price":5470
+                "price":5010,
+                "image":"https://g1-bg.cars.bg/2024-08-26_2/66ccb8c718b0afbecf0bf3e3o.jpg"
             },
             "Qashaqai":{
                 "year":2013,
                 "engine":"Petrol",
                 "horsePower":116,
                 "gearbox":"Manual",
-                "price":5720
+                "price":6390,
+                "image":"https://g1-bg.cars.bg/2025-03-11_2/67d015d7d0f52c196a052c94o.jpg"
             },
             "X-Trail":{
-                "year":2024,
+                "year":2023,
                 "engine":"Petrol",
-                "horsePower":214,
+                "horsePower":201,
                 "gearbox":"Automatic",
-                "price":40140
+                "price":27550,
+                "image":"https://g1-bg.cars.bg/2025-10-22_2/68f8f921cad53e88e00aa773o.jpg"
             }
         },
         "Opel":{
@@ -1038,79 +1112,90 @@
                 "engine":"Petrol",
                 "horsePower":200,
                 "gearbox":"Manual",
-                "price":3730
+                "price":3730,
+                "image":"https://g1-bg.cars.bg/2025-05-03_1/68159b2b6e21bf9c710b4542o.jpg"
             },
             "Corsa":{
                 "year":2014,
                 "engine":"Diesel",
                 "horsePower":75,
                 "gearbox":"Manual",
-                "price":3060
+                "price":3060,
+                "image":"https://g1-bg.cars.bg/2025-10-17_2/68f22c6a79f68cbd4d0a8065o.jpg"
             },
             "Insignia":{
-                "year":2012,
+                "year":2013,
                 "engine":"Diesel",
-                "horsePower":160,
+                "horsePower":195,
                 "gearbox":"Automatic",
-                "price":5110
+                "price":5110,
+                "image":"https://g1-bg.cars.bg/2024-12-08_2/6755c658fb6cf1f3e8098572o.jpg"
             },
             "Meriva":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":96,
                 "gearbox":"Manual",
-                "price":4550
+                "price":4550,
+                "image":"https://g1-bg.cars.bg/2025-02-28_2/67c1ba543fac0341e20fa912o.jpg"
             },
             "Vectra":{
                 "year":2006,
                 "engine":"Diesel",
                 "horsePower":150,
                 "gearbox":"Manual",
-                "price":1780
+                "price":1780,
+                "image":"https://g1-bg.cars.bg/2025-09-15_2/68c8505223fee4f9b8070eb2o.jpg"
             },
             "Zafira":{
                 "year":2012,
                 "engine":"Diesel",
                 "horsePower":165,
                 "gearbox":"Automatic",
-                "price":7660
+                "price":4340,
+                "image":"https://g1-bg.cars.bg/2025-09-25_2/68d56425e452b9a333041892o.jpg"
             }
         },
         "Peugeot":{ 
             "207":{
-                "year":2008,
+                "year":2009,
                 "engine":"Petrol",
                 "horsePower":95,
                 "gearbox":"Manual",
-                "price":2500
+                "price":2500,
+                "image":"https://g1-bg.cars.bg/2023-07-06_2/64a6cbca22d8cc487f0632b7o.jpg"
             },
             "308":{
                 "year":2022,
                 "engine":"Diesel",
                 "horsePower":130,
                 "gearbox":"Automatic",
-                "price":24380
+                "price":24790,
+                "image":"https://g1-bg.cars.bg/2025-09-16_2/68c9bd0be74920839103fd35o.jpg"
             },
             "407":{
                 "year":2005,
                 "engine":"Petrol",
                 "horsePower":157,
                 "gearbox":"Manual",
-                "price":1780
+                "price":1780,
+                "image":"https://g1-bg.cars.bg/2025-03-27_1/67e51741f95a1227560e3242o.jpg"
             },
             "508":{
                 "year":2012,
                 "engine":"Diesel",
                 "horsePower":204,
                 "gearbox":"Automatic",
-                "price":6130
+                "price":6130,
+                "image":"https://g1-bg.cars.bg/2025-10-20_1/68f5f3c20f9e7cc7ef00acc2o.jpg"
             },
             "Partner":{
                 "year":2010,
                 "engine":"Diesel",
                 "horsePower":90,
                 "gearbox":"Manual",
-                "price":4950
+                "price":4950,
+                "image":"https://g1-bg.cars.bg/2025-01-09_1/677f632451d9ea01e4083134o.jpg"
             }
         },
         "Porsche":{
@@ -1119,28 +1204,32 @@
                 "engine":"Petrol",
                 "horsePower":581,
                 "gearbox":"Automatic",
-                "price":132880
+                "price":132880,
+                "image":"https://g1-bg.cars.bg/2025-09-30_2/68dbfe7030a6daccde080274o.jpg"
             },
             "Cayenne":{
                 "year":2011,
                 "engine":"Petrol",
                 "horsePower":299,
                 "gearbox":"Automatic",
-                "price":14820
+                "price":14820,
+                "image":"https://g1-bg.cars.bg/2025-08-11_1/68999fd47c827e63a9005303o.jpg"
             },
             "Macan":{
                 "year":2014,
                 "engine":"Diesel",
                 "horsePower":250,
                 "gearbox":"Automatic",
-                "price":23000
+                "price":28060,
+                "image":"https://g1-bg.cars.bg/2024-02-11_2/65c8c39e537280b1700990d2o.jpg"
             },
             "Panamera":{
                 "year":2017,
                 "engine":"Petrol",
-                "horsePower":330,
+                "horsePower":549,
                 "gearbox":"Automatic",
-                "price":44500
+                "price":71570,
+                "image":"https://g1-bg.cars.bg/2025-04-09_2/67f699890c3031b24b06c572o.jpg"
             }
         },
         "Renault":{
@@ -1149,28 +1238,32 @@
                 "engine":"Petrol",
                 "horsePower":101,
                 "gearbox":"Manual",
-                "price":9500
+                "price":9500,
+                "image":"https://g1-bg.cars.bg/2025-07-18_2/687a765ff0db846d4d0de062o.jpg"
             },
             "Kangoo":{
                 "year":2008,
                 "engine":"Diesel",
                 "horsePower":75,
                 "gearbox":"Manual",
-                "price":2450
+                "price":2450,
+                "image":"https://g1-bg.cars.bg/2025-07-04_1/68678c0d7983e5e0fe063e62o.jpg"
             },
             "Megane":{
                 "year":2013,
                 "engine":"Diesel",
                 "horsePower":130,
                 "gearbox":"Manual",
-                "price":4390
+                "price":4390,
+                "image":"https://g1-bg.cars.bg/2025-10-16_2/68f0c35f9d633d69d80602f3o.jpg"
             },
             "Scenic":{
                 "year":2017,
                 "engine":"Diesel",
                 "horsePower":110,
                 "gearbox":"Automatic",
-                "price":9650
+                "price":9650,
+                "image":"https://g1-bg.cars.bg/2025-04-22_2/6807f0477f67fe88b106bc02o.jpg"
             }
         },
         "Rolls-Royce":{
@@ -1179,21 +1272,24 @@
                 "engine":"Petrol",
                 "horsePower":571,
                 "gearbox":"Automatic",
-                "price":352270
+                "price":352270,
+                "image":"https://www.lamborghinigoldcoast.com/imagetag/10256/2/l/Used-2019-Rolls-Royce-Cullinan-1688577443.jpg"
             },
             "Ghost":{
                 "year":2011,
                 "engine":"Petrol",
                 "horsePower":575,
                 "gearbox":"Automatic",
-                "price":102207
+                "price":102207,
+                "image":"https://images.collectingcars.com/025391/mainimage.jpg?w=1263&fit=fillmax&crop=edges&auto=format,compress&cs=srgb&q=85"
             },
             "Spectre":{
-                "year":2021,
+                "year":2024,
                 "engine":"Electric",
                 "horsePower":585,
                 "gearbox":"Automatic",
-                "price":374980
+                "price":374980,
+                "image":"https://www.ilusso.com/imagetag/2684/main/l/Used-2024-Rolls-Royce-Spectre-1702665867.jpg"
             }
         },
         "Seat":{
