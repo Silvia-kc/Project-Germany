@@ -1,0 +1,46 @@
+body {
+    background: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 { color: #0ff; margin-top: 20px; text-shadow: 0 0 20px #0ff; font-size: 2.5rem; }
+
+form {
+    margin: 20px auto;
+    background: #1a1a1a;
+    padding: 20px 25px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 15px #0ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+form:hover { transform: scale(1.02); box-shadow: 0 0 25px #0ff; }
+
+input, select, button { margin: 10px 0; padding: 10px; border-radius: 5px; border: 1px solid #0ff; background: #121212; color: #0ff; font-weight: bold; width: 100%; }
+input:focus, select:focus { background: #0ff; color: #121212; outline: none; }
+button { cursor: pointer; transition: transform 0.3s; }
+button:hover { transform: scale(1.05); }
+
+#info { display: flex; flex-wrap: wrap; justify-content: center; margin: 20px; gap: 20px; }
+.car-card { background: #1a1a1a; border-radius: 10px; box-shadow: 0 0 15px #0ff; color: white; padding: 20px; margin: 10px; width: 250px; text-align: center; position: relative; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; }
+.car-card:hover { transform: translateY(-5px) scale(1.05); box-shadow: 0 0 30px #0ff; }
+.car-card img { max-width: 100%; border-radius: 10px; margin-bottom: 10px; transition: transform 0.3s; }
+.car-card img:hover { transform: scale(1.05); }
+.car-card h2 { color: #0ff; margin: 10px 0; font-size: 1.2rem; text-shadow: 0 0 10px #0ff; }
+.car-card p { margin: 5px 0; font-size: 0.95rem; }
+.car-card p strong { color: #ff0; text-shadow: 0 0 8px #ff0; }
+
+#buyer-dashboard, #seller-dashboard { display: none; margin-top: 20px; }
+#role-display { margin: 20px 0; font-size: 1.5rem; color: #0ff; text-shadow: 0 0 10px #0ff; }
+
+.chat-container { background: #121212; border: 1px solid #0ff; border-radius: 8px; padding: 5px; margin-top: 10px; text-align: left; }
+.chat-box { height: 120px; overflow-y: auto; border: 1px solid #0ff; background: #1a1a1a; padding: 5px; margin-bottom: 5px; border-radius: 5px; }
+.chat-input { width: calc(100% - 60px); padding: 4px; border-radius: 5px; border: 1px solid #0ff; background: #121212; color: #0ff; }
+.send-btn { padding: 4px 8px; border: none; border-radius: 5px; background: #0ff; color: #000; cursor: pointer; }
+
+#login-form, #registration-form { width: 300px; margin: 20px auto; }
+#login-form button, #registration-form button { width: 100%; }

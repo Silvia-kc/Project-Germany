@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CarDealership</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>CarDealership</h1>
+
+<!-- Registration/Login Container -->
+<div id="auth-container">
+  <form id="registration-form" style="display:none;">
+    <h2>Register</h2>
+    <input type="text" id="reg-username" placeholder="Username" required><br>
+    <input type="password" id="reg-password" placeholder="Password" required><br>
+    <select id="reg-role">
+      <option value="buyer">Buyer</option>
+      <option value="seller">Seller</option>
+    </select><br>
+    <button type="submit">Register</button>
+    <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+  </form>
+
+  <form id="login-form">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username" required><br>
+    <input type="password" id="password" placeholder="Password" required><br>
+    <button type="submit">Login</button>
+    <p>Don't have an account? <a href="#" id="show-register">Register</a></p>
+  </form>
+</div>
+
+<!-- Role greeting -->
+<div id="role-display"></div>
+
+<!-- Buyer Dashboard -->
+<div id="buyer-dashboard" style="display:none;">
+  <h2>Buyer Dashboard</h2>
+  <form>
+    <label>Brand:</label>
+    <select id="brand"><option value="">-- Choose brand --</option></select>
+    <label>Model:</label>
+    <select id="model"><option value="">-- Choose model --</option></select>
+  </form>
+  <div id="info"></div>
+</div>
+
+<!-- Seller Dashboard -->
+<div id="seller-dashboard" style="display:none;">
+  <h2>Seller Dashboard</h2>
+  <form id="add-car-form">
+    <input type="text" id="car-model" placeholder="Model" required>
+    <input type="number" id="car-year" placeholder="Year" required>
+    <input type="text" id="car-engine" placeholder="Engine" required>
+    <input type="number" id="car-horsepower" placeholder="Horsepower" required>
+    <input type="text" id="car-gearbox" placeholder="Gearbox" required>
+    <input type="number" id="car-price" placeholder="Price" required>
+    <input type="text" id="car-image" placeholder="Image URL" required>
+    <button type="submit">Add Car</button>
+  </form>
+  <h3>Messages from Buyers</h3>
+  <div id="seller-chat-box" class="chat-box"></div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
