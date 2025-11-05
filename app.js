@@ -76,11 +76,13 @@ app.get("/api/cars", async (req, res) => {
     result.rows.forEach(car => {
       if (!carsData[car.brand]) carsData[car.brand] = {};
       carsData[car.brand][car.model] = {
-        year: car.year,
-        engine: car.engine,
-        horsePower: car.horse_power,
-        gearbox: car.gearbox,
-        price: car.price,
+         brand: car.brand,       // <-- add this
+         model: car.model,
+         year: car.year,
+         engine: car.engine,
+         horsePower: car.horse_power,
+         gearbox: car.gearbox,
+         price: car.price,
         image: car.image
       };
     });
@@ -94,7 +96,10 @@ app.get("/api/cars", async (req, res) => {
 // ------------------------
 // Add Car (sellers)
 // ------------------------
-app.post("/api/add-car", async (req, res) => {
+
+app.post("/api/cars", async (req, res) => {
+  console.log("Received car data:", req.body);
+  console.log("Session user:", req.session.user);
   const user = req.session.user;
   if (!user || user.role !== "seller") return res.status(403).json({ message: "Unauthorized" });
 
@@ -133,6 +138,16 @@ app.post("/api/message", async (req, res) => {
         res.status(500).json({ message: "DB error" });
     }
 });
+app.get("/api/brands", async (req, res) => {
+  try {
+    const result = await pool.query(`SELECT id, name FROM brands ORDER BY name`);
+    res.json(result.rows);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Database error fetching brands" });
+  }
+});
+
 // Get all messages for all cars
 app.get("/api/messages", async (req, res) => {
   try {
@@ -176,6 +191,42 @@ io.on("connection", (socket) => {
 
   socket.on("disconnect", () => console.log("User disconnected:", socket.id));
 });
+
+// -------------------------
+// Auth routes (example)
+// -------------------------
+app.post("/api/register", async (req, res) => {
+  // your registration logic
+});
+
+app.post("/api/login", async (req, res) => {
+  // your login logic
+});
+
+// -------------------------
+// ✅ ADD THIS HERE — Seller adds a car
+// -------------------------
+
+// -------------------------
+// ✅ And below it — Seller fetches their own cars
+// -------------------------
+app.get("/api/cars", async (req, res) => {
+  const sellerId = req.session.user?.id;
+  if (!sellerId) return res.status(403).json({ message: "Not authorized" });
+
+  try {
+    const result = await pool.query(
+      "SELECT * FROM cars WHERE seller_id = $1 ORDER BY id DESC",
+      [sellerId]
+    );
+    res.json(result.rows);
+  } catch (err) {
+    console.error("❌ Error loading cars:", err);
+    res.status(500).json({ message: "Database error while loading cars" });
+  }
+});
+
+
 
 
 server.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
