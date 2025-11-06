@@ -112,13 +112,15 @@ loginForm.addEventListener("submit", async (e) => {
 // ------------------------
 async function loadBuyerUI() {
   try {
-    const res = await fetch("/api/add-car");
+    const res = await fetch("/api/cars");
     carsData = await res.json();
     populateBrands();
     displayAllCars(carsData);
+    loadBrandOptions()
   } catch (err) {
     console.error("Failed to load cars:", err);
   }
+  
 }
 
 // Populate brands for buyer
@@ -308,6 +310,27 @@ if (addCarForm) {
       image: document.getElementById("car-image").value
     };
 
+    try {
+    const res = await fetch("/api/cars", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(car)
+    })
+
+    const data = await res.json();
+      if (!res.ok) {
+        alert("❌ Error: " + data.message);
+        return;
+      }
+
+      alert("✅ Car added successfully!");
+      addCarForm.reset();
+      loadSellerCars(); // refresh seller cars
+    } catch (err) {
+      console.error("❌ Network error while adding car:", err);
+      alert("❌ Network error while adding car.");
+    }
+
    if (!car.brand_id || !car.model || !car.year || !car.price) {
   alert("Please fill in all required fields!");
   return;
@@ -349,7 +372,7 @@ async function loadSellerCars() {
   container.innerHTML = "<p>Loading your cars...</p>";
 
   try {
-    const res = await fetch("/api/cars");
+    const res = await fetch("/api/seller/cars");
     if (!res.ok) throw new Error("Failed to fetch cars");
     const cars = await res.json();
 

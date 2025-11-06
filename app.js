@@ -76,7 +76,7 @@ app.get("/api/cars", async (req, res) => {
     result.rows.forEach(car => {
       if (!carsData[car.brand]) carsData[car.brand] = {};
       carsData[car.brand][car.model] = {
-         brand: car.brand,       // <-- add this
+         brand: car.brand,
          model: car.model,
          year: car.year,
          engine: car.engine,
@@ -203,14 +203,7 @@ app.post("/api/login", async (req, res) => {
   // your login logic
 });
 
-// -------------------------
-// ✅ ADD THIS HERE — Seller adds a car
-// -------------------------
-
-// -------------------------
-// ✅ And below it — Seller fetches their own cars
-// -------------------------
-app.get("/api/cars", async (req, res) => {
+app.get("/api/seller/cars", async (req, res) => {
   const sellerId = req.session.user?.id;
   if (!sellerId) return res.status(403).json({ message: "Not authorized" });
 
