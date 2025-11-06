@@ -76,13 +76,14 @@ app.get("/api/cars", async (req, res) => {
     result.rows.forEach(car => {
       if (!carsData[car.brand]) carsData[car.brand] = {};
       carsData[car.brand][car.model] = {
-         brand: car.brand,
-         model: car.model,
-         year: car.year,
-         engine: car.engine,
-         horsePower: car.horse_power,
-         gearbox: car.gearbox,
-         price: car.price,
+        id: car.id,
+        brand: car.brand,
+        model: car.model,
+        year: car.year,
+        engine: car.engine,
+        horsePower: car.horse_power,
+        gearbox: car.gearbox,
+        price: car.price,
         image: car.image
       };
     });
