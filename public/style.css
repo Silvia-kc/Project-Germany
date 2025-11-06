@@ -48,7 +48,7 @@ button:hover { transform: scale(1.05); }
 #add-car-form { width: 40%; }
 
 #seller-chat-box {
-    width: 60%; /* adjust as needed */
-    margin: 20px auto; /* centers it horizontally */
+    width: 60%; 
+    margin: 20px auto; 
     display: block;
 }

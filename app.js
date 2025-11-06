@@ -25,9 +25,6 @@ app.use(session({ secret: "secret-key", resave: false, saveUninitialized: true }
 
 app.get("/", (req, res) => res.sendFile(path.join(__dirname, "public", "index.html")));
 
-// ------------------------
-// Registration
-// ------------------------
 app.post("/register", async (req, res) => {
   const { username, password, role } = req.body;
   try {
@@ -40,9 +37,6 @@ app.post("/register", async (req, res) => {
   }
 });
 
-// ------------------------
-// Login
-// ------------------------
 app.post("/login", async (req, res) => {
   const { username, password } = req.body;
   try {
@@ -61,9 +55,6 @@ app.post("/login", async (req, res) => {
   }
 });
 
-// ------------------------
-// Fetch Cars (buyers)
-// ------------------------
 app.get("/api/cars", async (req, res) => {
   try {
     const result = await pool.query(`
@@ -93,10 +84,6 @@ app.get("/api/cars", async (req, res) => {
     res.status(500).json({ message: "Database error" });
   }
 });
-
-// ------------------------
-// Add Car (sellers)
-// ------------------------
 
 app.post("/api/cars", async (req, res) => {
   console.log("Received car data:", req.body);
@@ -131,7 +118,6 @@ app.post("/api/message", async (req, res) => {
             [carId, sender, text]
         );
 
-        // Emit to sellers
         io.emit("receiveMessage", { carId, sender, text });
         res.status(200).json({ message: "Message sent" });
     } catch (err) {
@@ -149,7 +135,6 @@ app.get("/api/brands", async (req, res) => {
   }
 });
 
-// Get all messages for all cars
 app.get("/api/messages", async (req, res) => {
   try {
     const result = await pool.query(`
@@ -180,9 +165,7 @@ app.get("/api/messages/:carId", async (req, res) => {
         res.status(500).json({ message: "DB error" });
     }
 });
-// ------------------------
-// Socket.io Chat
-// ------------------------
+
 io.on("connection", (socket) => {
   console.log("User connected:", socket.id);
 
@@ -193,15 +176,10 @@ io.on("connection", (socket) => {
   socket.on("disconnect", () => console.log("User disconnected:", socket.id));
 });
 
-// -------------------------
-// Auth routes (example)
-// -------------------------
 app.post("/api/register", async (req, res) => {
-  // your registration logic
 });
 
 app.post("/api/login", async (req, res) => {
-  // your login logic
 });
 
 app.get("/api/seller/cars", async (req, res) => {

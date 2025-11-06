@@ -1,6 +1,3 @@
-// ------------------------
-// DOM Elements
-// ------------------------
 const loginForm = document.getElementById("login-form");
 const registerForm = document.getElementById("registration-form");
 const showRegisterLink = document.getElementById("show-register");
@@ -19,9 +16,6 @@ let carsData = {};
 let userRole = null;
 let userName = null;
 
-// ------------------------
-// Form switching
-// ------------------------
 showRegisterLink.addEventListener("click", (e) => {
   e.preventDefault();
   registerForm.style.display = "block";
@@ -34,9 +28,6 @@ showLoginLink.addEventListener("click", (e) => {
   registerForm.style.display = "none";
 });
 
-// ------------------------
-// Registration
-// ------------------------
 registerForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   const username = document.getElementById("reg-username").value;
@@ -64,9 +55,6 @@ registerForm.addEventListener("submit", async (e) => {
   }
 });
 
-// ------------------------
-// Login
-// ------------------------
 loginForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   const username = document.getElementById("username").value;
@@ -107,9 +95,6 @@ loginForm.addEventListener("submit", async (e) => {
   }
 });
 
-// ------------------------
-// Buyer UI
-// ------------------------
 async function loadBuyerUI() {
   try {
     const res = await fetch("/api/cars");
@@ -123,7 +108,6 @@ async function loadBuyerUI() {
   
 }
 
-// Populate brands for buyer
 function populateBrands() {
   brandSelect.innerHTML = `<option value="">-- Choose a brand --</option>`;
   Object.keys(carsData).forEach((brand) => {
@@ -134,7 +118,6 @@ function populateBrands() {
   });
 }
 
-// Display cars with chat
 function displayAllCars(data) {
   infoDiv.innerHTML = "";
   Object.keys(data).forEach((brand) => {
@@ -193,7 +176,6 @@ function displayAllCars(data) {
   });
 }
 
-// Brand filter
 brandSelect.addEventListener("change", () => {
   const brand = brandSelect.value;
   modelSelect.innerHTML = '<option value="">-- Select a model --</option>';
@@ -210,7 +192,7 @@ brandSelect.addEventListener("change", () => {
   }
 });
 
-// Model filter
+
 modelSelect.addEventListener("change", () => {
   const brand = brandSelect.value;
   const model = modelSelect.value;
@@ -223,21 +205,15 @@ modelSelect.addEventListener("change", () => {
   }
 });
 
-// ------------------------
-// Seller UI
-// ------------------------
 async function loadSellerUI() {
-  // 1. Show seller dashboard
+ 
   sellerDashboard.style.display = "block";
   buyerDashboard.style.display = "none";
 
-  // 2. Load brand options for "Add Car" form
   await loadBrandOptions();
 
-  // 3. Load seller's cars
   loadSellerCars();
 
-  // 4. Load messages from buyers
   const sellerMessagesDiv = document.getElementById("seller-chat-box");
   sellerMessagesDiv.innerHTML = "";
 
@@ -266,7 +242,7 @@ async function loadSellerUI() {
   } catch (err) {
     console.error("Failed to load messages:", err);
   }
-  // Listen for new messages in real time
+  
 socket.on("receiveMessage", (msg) => {
   const sellerMessagesDiv = document.getElementById("seller-chat-box");
   const carDivId = `chat-car-${msg.carId}`;
@@ -288,10 +264,6 @@ socket.on("receiveMessage", (msg) => {
 });
 
 }
-
-  // ------------------------
-// Seller: Add Car Form + Load Cars
-// ------------------------
 
 const addCarForm = document.getElementById("add-car-form");
 
@@ -325,7 +297,7 @@ if (addCarForm) {
 
       alert("✅ Car added successfully!");
       addCarForm.reset();
-      loadSellerCars(); // refresh seller cars
+      loadSellerCars(); 
     } catch (err) {
       console.error("❌ Network error while adding car:", err);
       alert("❌ Network error while adding car.");
@@ -348,7 +320,7 @@ if (addCarForm) {
       if (response.ok) {
         alert("✅ Car added successfully!");
         e.target.reset();
-        loadSellerCars(); // reload cars after adding
+        loadSellerCars(); 
       } else {
         alert("❌ Error adding car: " + (data.message || "Unknown error"));
       }
@@ -358,13 +330,9 @@ if (addCarForm) {
     }
   });
 
-  // Load seller's cars when UI is ready
   loadSellerCars();
 }
 
-// ------------------------
-// Function to load cars for seller
-// ------------------------
 async function loadSellerCars() {
   const container = document.getElementById("seller-cars-list");
   if (!container) return;
@@ -405,7 +373,7 @@ async function loadBrandOptions() {
 
     brands.forEach(b => {
       const option = document.createElement("option");
-      option.value = b.id; // save brand ID, not name
+      option.value = b.id; 
       option.textContent = b.name;
       brandSelect.appendChild(option);
     });
@@ -414,7 +382,6 @@ async function loadBrandOptions() {
   }
 }
 
-// Call this when seller dashboard loads
 loadBrandOptions();
   socket.on("receiveMessage", (msg) => {
     const carDivId = `chat-car-${msg.carId}`;
