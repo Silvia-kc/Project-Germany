@@ -44,3 +44,11 @@ button:hover { transform: scale(1.05); }
 
 #login-form, #registration-form { width: 300px; margin: 20px auto; }
 #login-form button, #registration-form button { width: 100%; }
+
+#add-car-form { width: 40%; }
+
+#seller-chat-box {
+    width: 60%; /* adjust as needed */
+    margin: 20px auto; /* centers it horizontally */
+    display: block;
+}
